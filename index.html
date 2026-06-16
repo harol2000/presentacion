@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crea tu primera app con IA</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow-a" aria-hidden="true"></div>
+    <div class="page-glow page-glow-b" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand-block">
+        <span class="brand-kicker">Ponencia escolar</span>
+        <strong class="brand-title">Crea tu primera app con IA</strong>
+      </div>
+
+      <div class="topbar-status" aria-live="polite">
+        <span class="status-label">Diapositiva</span>
+        <span class="status-value" id="currentSlideLabel">1 / 7</span>
+      </div>
+
+      <div class="progress-shell" aria-hidden="true">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+    </header>
+
+    <main class="deck" aria-label="Presentacion interactiva">
+      <div class="slides-track" id="slidesTrack">
+        <!-- Nota del expositor: Hoy veremos como una idea simple puede convertirse en una app real usando inteligencia artificial y herramientas gratuitas. -->
+        <section class="slide is-active" data-title="Crea tu primera app con IA">
+          <div class="slide-shell">
+            <div class="slide-number">01</div>
+            <div class="slide-grid hero-grid">
+              <div class="slide-copy hero-copy">
+                <p class="eyebrow">Idea simple, impacto real</p>
+                <h1>Crea tu primera app con IA</h1>
+                <p class="lead">De una idea simple a una app real</p>
+
+                <div class="hero-pills">
+                  <span class="pill">IA aplicada</span>
+                  <span class="pill">Herramientas gratis</span>
+                  <span class="pill">Proyecto real</span>
+                </div>
+
+                <div class="support-strip glass-line-card">
+                  <span class="support-kicker">Objetivo</span>
+                  <p>Mostrar que una buena idea puede transformarse en una app lista para usar.</p>
+                </div>
+              </div>
+
+              <div class="hero-stage glass-card">
+                <div class="hero-stage-head">
+                  <span class="signal-label">Reto</span>
+                  <strong>Convertir una idea simple en una app que si funciona</strong>
+                  <p>Sin instalar software complicado y usando solo herramientas del navegador.</p>
+                </div>
+
+                <div class="hero-stage-grid">
+                  <article class="point-card">
+                    <span class="point-badge">1</span>
+                    <div>
+                      <h3>Pregunta real</h3>
+                      <p>Resolver una necesidad cercana a los estudiantes.</p>
+                    </div>
+                  </article>
+                  <article class="point-card">
+                    <span class="point-badge">2</span>
+                    <div>
+                      <h3>Solucion simple</h3>
+                      <p>Separar el problema en pasos faciles de construir.</p>
+                    </div>
+                  </article>
+                  <article class="point-card">
+                    <span class="point-badge">3</span>
+                    <div>
+                      <h3>Resultado util</h3>
+                      <p>Una experiencia que orienta y guarda informacion.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota del expositor: A veces no sabemos por donde empezar cuando pensamos en nuestro futuro profesional. Por eso crearemos un test vocacional sencillo. -->
+        <section class="slide" data-title="El problema">
+          <div class="slide-shell">
+            <div class="slide-number">02</div>
+            <div class="slide-grid problem-grid">
+              <div class="slide-copy">
+                <p class="eyebrow">El problema</p>
+                <h2>Muchos estudiantes no saben que carrera elegir</h2>
+                <p class="lead">Elegir el futuro profesional puede sentirse confuso, apresurado y lleno de dudas.</p>
+
+                <div class="insight-row">
+                  <span class="insight-chip">Muchas opciones</span>
+                  <span class="insight-chip">Poca claridad</span>
+                  <span class="insight-chip">Necesidad de guia</span>
+                </div>
+              </div>
+
+              <div class="cards-stack problem-cards">
+                <article class="glass-card mini-card">
+                  <span class="mini-card-tag">Duda</span>
+                  <h3>Demasiadas opciones</h3>
+                  <p>Hay muchas carreras y no siempre sabemos por cual empezar.</p>
+                </article>
+                <article class="glass-card mini-card">
+                  <span class="mini-card-tag">Presion</span>
+                  <h3>Decidir rapido</h3>
+                  <p>A veces sentimos que debemos elegir sin suficiente informacion.</p>
+                </article>
+                <article class="glass-card mini-card">
+                  <span class="mini-card-tag">Oportunidad</span>
+                  <h3>Guiar con tecnologia</h3>
+                  <p>Una app puede ayudar a ordenar ideas de manera simple y visual.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota del expositor: El estudiante escribe su nombre, responde preguntas y la app le muestra un area vocacional segun sus intereses. -->
+        <section class="slide" data-title="La solucion">
+          <div class="slide-shell">
+            <div class="slide-number">03</div>
+            <div class="slide-grid solution-grid">
+              <div class="slide-copy">
+                <p class="eyebrow">La solucion</p>
+                <h2>App: &iquest;Cual es tu vocacion?</h2>
+                <p class="lead">Responde preguntas y descubre tu area vocacional de forma clara y personal.</p>
+
+                <div class="support-strip glass-line-card">
+                  <span class="support-kicker">Experiencia</span>
+                  <p>Nombre, preguntas y un resultado directo que el alumno puede entender en segundos.</p>
+                </div>
+              </div>
+
+              <div class="app-stage">
+                <div class="app-preview glass-card">
+                  <div class="app-preview-top">
+                    <span class="window-dot"></span>
+                    <span class="window-dot"></span>
+                    <span class="window-dot"></span>
+                    <span class="app-preview-label">Vista de la app</span>
+                  </div>
+
+                  <div class="app-preview-body">
+                    <div class="input-row">
+                      <span class="input-label">Nombre</span>
+                      <div class="fake-input">Valeria</div>
+                    </div>
+
+                    <div class="question-card">
+                      <span class="question-step">Pregunta 4 de 10</span>
+                      <p>&iquest;Que actividad disfrutas mas?</p>
+                      <div class="option-list">
+                        <span class="option-chip active">Resolver problemas con tecnologia</span>
+                        <span class="option-chip">Ayudar a otros</span>
+                        <span class="option-chip">Disenar y crear</span>
+                      </div>
+                    </div>
+
+                    <div class="result-card">
+                      <span class="result-label">Resultado</span>
+                      <strong>Tecnologia y Sistemas</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota del expositor: No necesitamos instalar programas complicados. Usaremos herramientas accesibles desde el navegador. -->
+        <section class="slide" data-title="Herramientas">
+          <div class="slide-shell">
+            <div class="slide-number">04</div>
+            <div class="slide-grid tool-layout">
+              <div class="slide-copy tool-copy">
+                <p class="eyebrow">Herramientas que usaremos</p>
+                <h2>ChatGPT, Google Sheets <span class="title-accent">y Apps Script</span></h2>
+                <p class="lead">Tres piezas que juntas permiten crear una app completa sin instalar programas.</p>
+
+                <div class="support-strip glass-line-card">
+                  <span class="support-kicker">Idea clave</span>
+                  <p>Cada herramienta cumple un rol distinto: pensar, guardar datos y conectar la logica.</p>
+                </div>
+              </div>
+
+              <div class="toolchain-shell glass-card">
+                <div class="toolchain">
+                  <article class="tool-card">
+                    <span class="tool-icon">AI</span>
+                    <h3>ChatGPT</h3>
+                    <p>Ayuda a generar ideas, preguntas y codigo base.</p>
+                  </article>
+                  <article class="tool-card">
+                    <span class="tool-icon">GS</span>
+                    <h3>Google Sheets</h3>
+                    <p>Guarda preguntas, opciones y resultados.</p>
+                  </article>
+                  <article class="tool-card">
+                    <span class="tool-icon">AS</span>
+                    <h3>Apps Script</h3>
+                    <p>Conecta la hoja con la app web.</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota del expositor: La app lee las preguntas desde Google Sheets, calcula los puntajes y guarda el resultado final. -->
+        <section class="slide" data-title="Como funciona">
+          <div class="slide-shell">
+            <div class="slide-number">05</div>
+            <div class="slide-grid process-layout">
+              <div class="process-head">
+                <p class="eyebrow">&iquest;Como funciona?</p>
+                <h2>Un flujo simple, claro y facil de explicar</h2>
+                <p class="lead">La app toma informacion, procesa respuestas y guarda el resultado final.</p>
+              </div>
+
+              <div class="process-board glass-card">
+                <div class="process-rail" aria-hidden="true"></div>
+
+                <article class="process-step">
+                  <span class="flow-index">1</span>
+                  <h3>Nombre</h3>
+                  <p>El alumno se identifica antes de iniciar.</p>
+                </article>
+
+                <article class="process-step">
+                  <span class="flow-index">2</span>
+                  <h3>Preguntas</h3>
+                  <p>Responde 10 opciones multiples.</p>
+                </article>
+
+                <article class="process-step">
+                  <span class="flow-index">3</span>
+                  <h3>Resultado</h3>
+                  <p>Se detecta el area con mas puntos.</p>
+                </article>
+
+                <article class="process-step">
+                  <span class="flow-index">4</span>
+                  <h3>Guardado</h3>
+                  <p>La informacion final queda en Sheets.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota del expositor: Ahora pasamos a la parte practica. Veremos como crear la base de datos, generar las preguntas con IA y conectar todo con Apps Script. -->
+        <section class="slide" data-title="Parte practica">
+          <div class="slide-shell">
+            <div class="slide-number">06</div>
+            <div class="slide-grid practice-layout">
+              <div class="slide-copy">
+                <p class="eyebrow">Parte practica</p>
+                <h2>Ahora lo construiremos paso a paso</h2>
+                <p class="lead">Mas practica que teoria: crear, copiar, conectar y probar.</p>
+              </div>
+
+              <div class="steps-grid">
+                <article class="step-card glass-card">
+                  <div class="step-meta">
+                    <span>1</span>
+                    <small>Base</small>
+                  </div>
+                  <h3>Crear la hoja Preguntas</h3>
+                  <p>Preparar la estructura inicial de datos.</p>
+                </article>
+                <article class="step-card glass-card">
+                  <div class="step-meta">
+                    <span>2</span>
+                    <small>IA</small>
+                  </div>
+                  <h3>Pedir preguntas a ChatGPT</h3>
+                  <p>Generar ideas y contenido de forma rapida.</p>
+                </article>
+                <article class="step-card glass-card">
+                  <div class="step-meta">
+                    <span>3</span>
+                    <small>Datos</small>
+                  </div>
+                  <h3>Copiar la tabla en Google Sheets</h3>
+                  <p>Guardar preguntas, opciones y puntajes.</p>
+                </article>
+                <article class="step-card glass-card">
+                  <div class="step-meta">
+                    <span>4</span>
+                    <small>Conexion</small>
+                  </div>
+                  <h3>Abrir Apps Script</h3>
+                  <p>Entrar al espacio donde vivira la logica.</p>
+                </article>
+                <article class="step-card glass-card">
+                  <div class="step-meta">
+                    <span>5</span>
+                    <small>Codigo</small>
+                  </div>
+                  <h3>Pegar Code.gs e Index.html</h3>
+                  <p>Unir interfaz web y procesamiento.</p>
+                </article>
+                <article class="step-card glass-card">
+                  <div class="step-meta">
+                    <span>6</span>
+                    <small>Prueba</small>
+                  </div>
+                  <h3>Ejecutar la app</h3>
+                  <p>Probar el flujo completo y ver el resultado.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Nota del expositor: La inteligencia artificial no reemplaza nuestro trabajo. Nos ayuda a avanzar mas rapido, aprender mejor y convertir ideas en proyectos reales. -->
+        <section class="slide" data-title="Cierre">
+          <div class="slide-shell">
+            <div class="slide-number">07</div>
+            <div class="slide-grid closing-grid">
+              <div class="slide-copy">
+                <p class="eyebrow">Cierre</p>
+                <h2>La IA no reemplaza tu creatividad, la potencia</h2>
+                <p class="lead">Aprender a usar IA es aprender a crear mejor y convertir ideas en proyectos reales.</p>
+
+                <div class="support-strip glass-line-card">
+                  <span class="support-kicker">Mensaje final</span>
+                  <p>La creatividad sigue siendo humana; la tecnologia acelera lo que somos capaces de construir.</p>
+                </div>
+              </div>
+
+              <div class="closing-stage glass-card">
+                <div class="closing-ring"></div>
+                <div class="closing-content">
+                  <span class="closing-tag">Tu siguiente paso</span>
+                  <strong>Tu idea vale.</strong>
+                  <p>La tecnologia puede ayudarte a convertirla en una experiencia real, util y compartible.</p>
+                  <div class="closing-actions">
+                    <span class="pill">Piensa</span>
+                    <span class="pill">Construye</span>
+                    <span class="pill">Comparte</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <nav class="dots-nav" id="dotsNav" aria-label="Navegacion por diapositivas"></nav>
+
+    <div class="deck-controls">
+      <button class="nav-button secondary" id="prevButton" type="button" aria-label="Diapositiva anterior">
+        &larr; Anterior
+      </button>
+      <div class="hint-chip">Usa flechas del teclado o desliza</div>
+      <button class="nav-button primary" id="nextButton" type="button" aria-label="Siguiente diapositiva">
+        Siguiente &rarr;
+      </button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
